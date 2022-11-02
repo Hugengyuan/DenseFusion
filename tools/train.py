@@ -23,7 +23,7 @@ from torch.autograd import Variable
 
 import os,sys
 
-BASE_DIR = os.path.dirname(os.path.abspath(file))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
 os.path.dirname(os.path.abspath(file))
